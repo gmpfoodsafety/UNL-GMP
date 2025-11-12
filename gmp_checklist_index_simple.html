@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMP Facility Checklist</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .disclosure::before {
+            content: '▶';
+            display: inline-block;
+            margin-right: 8px;
+            transition: transform 0.2s;
+        }
+        .disclosure.open::before {
+            content: '▼';
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans">
+    <div class="container mx-auto p-6 flex">
+        <!-- Navigation Index (Left) -->
+        <div class="w-1/4 bg-white p-6">
+            <h2 class="text-lg font-semibold mb-4">Checklist Sections</h2>
+            <ul id="navigation" class="space-y-2">
+                <!-- Sections will be dynamically added here by JavaScript -->
+            </ul>
+        </div>
+
+        <!-- Main Content (Right) -->
+        <div class="w-3/4 p-6">
+            <h1 class="text-3xl font-bold mb-6 text-center">GMP Facility Checklist</h1>
+            <div id="content" class="space-y-4">
+                <!-- Content will be dynamically added here by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Data goes here
+		const checklistData = [
+	   {
+		   section: "1. Qualified Individual",
+		   questions: [
+					   {
+						   text: "1.1 All individuals involved in manufacturing, processing, packing, or holding food must be trained as qualified individuals",
+						   references: [
+										{ text: "What is a PCQI", url: "https://safetychain.com/blog/fsma-pcqi-responsibilities" },
+										{ text: "Why Having a PCQI is Important", url: "https://safetychain.com/blog/fsma-pcqi-responsibilities#:~:text=The%20FDA%20doesn’t%20simply%20require%20a%20PCQI%20to%20be%20in%20place%20just%20for%20the%20sake%20of%20having%20one.%20The%20objective%20of%20the%20regulation%20is%20to%20ensure%20the%20individual%20is%20qualified%20to%20create%20and%20manage%20a%20FSMA%2Dcompliant%20food%20safety%20plan." },
+										{ text: "PCQI Definition (21CFR117.3)", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-A/section-117.3" },
+										{ text: "PCQI Definition (Video)", url: "https://youtu.be/y0XKtSpNh8Q?start=827" },
+										{ text: "FSMA Requirement for a PCQI (Video)", url: "https://youtu.be/Ik-INrYenoI?start=16&stop=48" },
+										{ text: "Introduction to GMPs (Video)", url: "https://youtu.be/hCvHklJgyeg?t=30s&end=60s" },
+										{ text: "Penn State QI Definition (Video)", url: "https://youtu.be/Pc5IG7-VUvw?list=PL_bTWa1uOqMHgzZY7qGBr8VpCLf-WHCrP&start=4" },
+										{ text: "Training Requirements (Video)", url: "https://youtu.be/Zrn10HFswz0?list=PL_bTWa1uOqMHgzZY7qGBr8VpCLf-WHCrP&start=6" }
+										]
+					   },
+					   {
+						   text: "1.2 Documentation of appropriate training of qualified individuals as appropriate for the job",
+						   references: [
+										{ text: "FSMA Records Requirement (21CFR117.4.(d))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-A/section-117.4" },
+										{ text: "FSPCA PCHF Course", url: "https://www.fspca.net/pchf-pcqi-v2-0#:~:text=This%20course%20developed%20by%20the%20FSPCA%20is%20the%20“standardized%20curriculum”%20recognized%20by%20FDA;%20successfully%20completing%20this%20course%20is%20one%20way%20to%20meet%20the%20requirements%20for%20a%20“preventive%20controls%20qualified%20individual.”" },
+										{ text: "PCQI Training", url: "https://safetychain.com/blog/fsma-pcqi-responsibilities#:~:text=PCQI training is available through the Food Safety Preventive Controls Alliance (FSPCA)." }
+										]
+					   }
+					   ]
+	   },
+	   {
+		   section: "2. Personnel",
+		   questions: [
+					   {
+						   text: "2.1 Training of all employees of the risks of unhygienic practices and appropriate hygienic practices to prevent contamination of food",
+						   references: [
+										{ text: "FSMA 21CFR117.10. Personnel", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.10" },
+										{ text: "Personal Hygiene Training", url: "https://www.statefoodsafety.com/Resources/Resources/stand-up-training-food-worker-personal-hygiene" },
+										{ text: "Implement Effective Training (Cornell)", url: "https://cals.cornell.edu/national-good-agricultural-practices-program/resources/educational-materials/decision-trees/worker-health-hygiene-and-training#:~:text=Implement training programs to effectively reduce risks" },
+										{ text: "Personnel GMPs 1 (Video)", url: "https://youtu.be/hCvHklJgyeg?start=230" },
+										{ text: "Personnel GMPs 2 (Video)", url: "https://youtu.be/hCvHklJgyeg?start=332" },
+										{ text: "Personnel GMPs 3 (Video)", url: "https://youtu.be/71bKF2lE37E?start=222" },
+										{ text: "Hand Washing 1 (Video)", url: "https://youtu.be/71bKF2lE37E?start=87" },
+										{ text: "Hand Washing 2 (Video)", url: "https://youtu.be/x85c3gncv3U?list=PL_bTWa1uOqMHgzZY7qGBr8VpCLf-WHCrP&start=7" },
+										{ text: "Personal Hygiene (Video)", url: "https://youtu.be/YrNWkB4Ah5I?list=PL_bTWa1uOqMHgzZY7qGBr8VpCLf-WHCrP&start=7" },
+										{ text: "Visitor Requirements (Video)", url: "https://youtu.be/jxX38GDqzuw?list=PL_bTWa1uOqMHgzZY7qGBr8VpCLf-WHCrP&start=6" },
+										{ text: "Employee Training (Video)", url: "https://www.youtube.com/watch?v=TmvtLAOGdp0&t=19s" }
+										]
+					   },
+					   {
+						   text: "2.2 Employees must report any health conditions to their supervisors including illness, open lesions, and any other sources of possible contamination",
+						   references: [
+										{ text: "Disease Control (21CFR117.10.(a))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.10" },
+										{ text: "Employees Cause 40% of Outbreaks (Video)", url: "https://youtu.be/IUldfdqJ9m0?start=4" },
+										{ text: "Importance of Sick Employee Reporting (Video)", url: "https://youtu.be/71bKF2lE37E?start=343" }
+										]
+					   },
+					   {
+						   text: "2.3 Written dress code policy for all personnel is enforced-EG jewelry policy",
+						   references: [
+										{ text: "Jewelry Do’s and Don’ts", url: "https://www.statefoodsafety.com/Resources/Resources/february-cartoon-jewelry-do-s-and-don-ts-for-food-handlers" },
+										{ text: "Which Jewelry is Allowed", url: "https://www.fooddocs.com/post/which-piece-of-jewelry-is-a-food-handler-allowed-to-wear" },
+										{ text: "Employee Dress Code Policy (Video)", url: "https://youtu.be/UXxsXSTKPFo" },
+										{ text: "Jewelry (Video)", url: "https://youtu.be/hCvHklJgyeg?start=487" },
+										{ text: "Cornell Dress Code (Video)", url: "https://www.youtube.com/watch?v=hCvHklJgyeg&t=401s" }
+										]
+					   },
+					   {
+						   text: "2.4 Written policy on personal protective attire is enforced",
+						   references: [
+										{ text: "List of Food PPE", url: "https://www.palmflex.com/blog/food-industry-ppe/?srsltid=AfmBOorbY7Tia3-VcTFgvTsMDiK7vnoTLq47xfXEM0P64eMfhFHsD3Pq" },
+										{ text: "Protective Clothing (Video)", url: "https://youtu.be/mjBaL_uD8O8?start=6" },
+										{ text: "PPE (Video)", url: "https://youtu.be/eHBqfyqIDrg?start=6" },
+										{ text: "PPE for Catering (Video)", url: "https://youtu.be/VW66gmKQGCk" },
+										{ text: "PPE for Carcass Fabrication (Video)", url: "https://youtu.be/DegOALvEtPA?start=29" }
+										]
+					   },
+					   {
+						   text: "2.5 Written policy on food and tobacco use is enforced",
+						   references: [
+										{ text: "Eating, Drinking and Using Tobacco (21 CFR 117.10 (b)(8),(9))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.10" },
+										{ text: "Eating, Drinking and Using Tobacco (2-401.11, Nebraska Food Code)", url: "https://nda.nebraska.gov/sites/default/files/regulations/foods/food_code.pdf" }
+										]
+					   },
+					   {
+						   text: "2.6 Training for all employees on proper food handling, food protection principles, and standard working conditions-Can employees identify when processing is going correctly and when it's not.",
+						   references: [
+										{ text: "Common Pitfalls in Personnel Hygiene and Training", url: "https://www.foodsafety-experts.com/avoiding-common-non-conformities-in-personnel-hygiene-and-training/" }
+										]
+					   },
+					   {
+						   text: "2.7 Designate personnel to identify and document when plant sanitation fails to meet expectations and when food contamination occurs-document failures and contamination",
+						   references: [
+										{ text: "Designation of competent supervisory individuals (21CFR117.80.(a).(3))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.80" },
+										{ text: "FSMA Documentation Requirements (Video)", url: "https://youtu.be/xl07UaO6lgY?start=6" }
+										]
+					   }
+					   ]
+	   },
+	   {
+		   section: "3. Plant and Grounds",
+		   questions: [
+					   {
+						   text: "3.1 Within the immediate vicinity of the plant, removal of litter, waste, weeds and grass occur regularly",
+						   references: [
+										{ text: "Practical Tips to Reduce Exterior Pest Attraction", url: "https://www.qualityassurancemag.com/article/12-practical-tips--for-reducing--exterior-pest-attraction/?utm_source=chatgpt.com" },
+										{ text: "Plant and grounds (21CFR117.20)", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.20" },
+										{ text: "NC State - Exterior Grounds (Video)", url: "https://youtu.be/RuC7Jho-NQY?start=1" },
+										{ text: "NC State - Loading Docks (Video)", url: "https://youtu.be/OREOecASVeY?start=2" }
+										]
+					   },
+					   {
+						   text: "3.2 Store all unused and broken equipment in the proper area",
+						   references: [
+										{ text: "Adequate Storage of Equipment (21 CFR Part 117.20(b)(1))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.20" }
+										]
+					   },
+					   {
+						   text: "3.3 Areas around and within the facility are well-drained",
+						   references: [
+										{ text: "Drainage Requirements (21CFR117.20.(a).(3))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.20" },
+										{ text: "NC State - Sanitary Drains (Video)", url: "https://youtu.be/a1wsse3TIp0?start=2" }
+										]
+					   },
+					   {
+						   text: "3.4 The grounds, buildings, fixtures, and other biological hazard areas are regularly maintained and repaired",
+						   references: [
+										{ text: "General Maintenance Requirements (21CFR117.35.(a))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.35" }
+										]
+					   },
+					   {
+						   text: "3.5 The plant must be suitable in size, construction, and design to allow for sanitation and maintenance.",
+						   references: [
+										{ text: "Facility Design Requirements (21CFR117.20.(b))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.20" },
+										{ text: "Facility Design (Video)", url: "https://youtu.be/71bKF2lE37E?start=425" },
+										{ text: "NC State - Entrance to Processing Area (Video)", url: "https://youtu.be/WYMV9WzsyKQ?start=2" },
+										{ text: "NC State - Floors and Ceilings (Video)", url: "https://youtu.be/Vf04bjfnKGs?start=2" }
+										]
+					   },
+					   {
+						   text: "3.6 Have a written and validated plan to control allergen cross contact",
+						   references: [
+										{ text: "Food Allergen Controls (21CFR117.135.(c).(2))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-C/section-117.135" },
+										{ text: "Nine Major Allergens", url: "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies#:~:text=of%20imported%20products.-,Major%20Food%20Allergens,from%20the%20marketplace%20or%20relabeled." },
+										{ text: "Allergen Basics (Video)", url: "https://youtu.be/R1IorYhfbiE?start=6" },
+										{ text: "Cornell - Allergen Regulatory Requirements (Video)", url: "https://youtu.be/g-tvFNKTDao?start=236" },
+										{ text: "UNL farrp - Allergen Guidance (Video)", url: "https://youtu.be/y2uIyEYemCg?start=3031" }
+										]
+					   },
+					   {
+						   text: "3.7 Plant design allows for separation of production by location, time, or other means reducing cross contamination",
+						   references: [
+										{ text: "Space or Time Separation (21 CFR 117.20(b)(2))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.20" },
+										{ text: "Penn State - Zone Concept (Video)", url: "https://youtu.be/kNwT-5zwtjk?list=PL_bTWa1uOqMHgzZY7qGBr8VpCLf-WHCrP&start=5" },
+										{ text: "Food Storage Separation (Video)", url: "https://youtu.be/gTitbP5_FtY?start=291" },
+										{ text: "Thawing Food (Video)", url: "https://youtu.be/gTitbP5_FtY?start=371" }
+										]
+					   },
+					   {
+						   text: "3.8 Proper lighting throughout the facility that is protected to prevent product contamination",
+						   references: [
+										{ text: "Lighting Requirements (21 CFR 117.20(b)(5))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.20" },
+										{ text: "Light Intensity (Video)", url: "https://youtu.be/qVMe0RBLGZQ?start=21" }
+										]
+					   },
+					   {
+						   text: "3.9 Dust and vapors are controlled through adequate ventilation",
+						   references: [
+										{ text: "Adequate Ventilation (21 CFR 117.20(b)(6))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.20" },
+										{ text: "Air for Food Industry (Video)", url: "https://youtu.be/OQX4BORjjbE?start=10" },
+										{ text: "Humidity Control (Video)", url: "https://youtu.be/_KdHyawKdUQ?start=33" },
+										{ text: "Compressed Air (Video)", url: "https://youtu.be/MLSm-v3x2-I?start=32" }
+										]
+					   }
+					   ]
+	   },
+	   {
+		   section: "4. Sanitary Operations",
+		   questions: [
+					   {
+						   text: "4.1 Buildings, fixtures, and other physical facilities of the plant must be maintained in a clean and sanitary condition and must be kept in repair adequate to prevent food from becoming adulterated",
+						   references: [
+										{ text: "General Maintenance (21CFR117.35(a))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.35" },
+										{ text: "Intentional Adulteration (Video)", url: "https://youtu.be/0uAdDmQ99Y4?list=PL_bTWa1uOqMHgzZY7qGBr8VpCLf-WHCrP&start=4" }
+										]
+					   },
+					   {
+						   text: "4.2 All cleaning compounds and sanitizing agents are free from microorganisms and must be safe and adequate under the condition of use",
+						   references: [
+										{ text: "Adequacy of Chemical Compounds (21CFR117.35(b)(1))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.35" },
+										{ text: "Food Grade Chemicals (Video)", url: "https://youtu.be/edBTFMviZYw?start=99" },
+										{ text: "NC State - Chemical Storage (Video)", url: "https://youtu.be/j9WKqE8IouM?start=3" },
+										{ text: "Chemical Control (Video)", url: "https://youtu.be/irqi45r8xEA?start=3" },
+										{ text: "Chemical Storage Safety (Video)", url: "https://youtu.be/4GUSQj-xOBY" }
+										]
+					   },
+					   {
+						   text: "4.3 Toxic cleaning compounds, sanitizing agents, and pesticide chemicals must be held and stored to protect against contamination of food, food-contact surfaces, and food-packaging",
+						   references: [
+										{ text: "Chemical Compound ID and Storage (21CFR117.35.(b).(2))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.35" },
+										{ text: "Cleaner and Sanitizer Storage (Video)", url: "https://youtu.be/lcwnKHHUk74?start=42" }
+										]
+					   },
+					   {
+						   text: "4.4 Only toxic materials that are relevant to the food being processed may be stored or used in the plant",
+						   references: [
+										{ text: "Adequacy of Chemical Compounds (21CFR117.35(b)(1))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.35" }
+										]
+					   },
+					   {
+						   text: "4.5 Effective pest control program should be established. Guard dogs may be allowed in some areas of a plant if they are unlikely to result in food contamination. Use pesticides only in ways that will protect against the contamination of food, food-contact surfaces, or food-packagaing materials",
+						   references: [
+										{ text: "Pest Control (21CFR117.35.(b).(c))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.35" },
+										{ text: "Pest Control (Video)", url: "https://youtu.be/71bKF2lE37E?start=1638" },
+										{ text: "Penn State - Pest Management (Video)", url: "https://youtu.be/wnVfiPxEq90?list=PL_bTWa1uOqMHgzZY7qGBr8VpCLf-WHCrP&start=6" },
+										{ text: "Whole Foods Rodent Closure (Video)", url: "https://youtu.be/8rOWdeGelcU?start=6" }
+										]
+					   },
+					   {
+						   text: "4.6 All equipment including food contact surfaces, utensils, and non-food contact surfaces are cleaned on a scheduled basis. All equipment should be stored in a manner that prevents contamination",
+						   references: [
+										{ text: "Sanitation of Food Contact Surfaces (21CFR117.35.(d))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.35" },
+										{ text: "Sanitation of Non-Food Contact Surfaces (21CFR117.35.(e))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.35" },
+										{ text: "Storage of Cleaned Equipment and Utensils (21CFR117.35.(f))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.35" },
+										{ text: "Iowa State - Two Step Cleaning and Sanitizing (Video)", url: "https://youtu.be/r0sWf0jf6T4?start=3" },
+										{ text: "NC State - Clean Out Of Place (Video)", url: "https://youtu.be/vpk5-mUwVcs?start=2" },
+										{ text: "CIP vs COP (Video)", url: "https://youtu.be/NFkwF6PWNtw?start=6" }
+										]
+					   },
+					   {
+						   text: "4.7 Single-serve articles must be stored, handled, and disposed of in a manner that protects against allergen cross-contamination and contamination of food, food-contact surfaces, and food-packaging",
+						   references: [
+										{ text: "Storage and Handling of Single Use Items (21CFR117.35.(d).(3))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.35" }
+										]
+					   }
+					   ]
+	   },
+	   {
+		   section: "5. Sanitary Facilities and Controls",
+		   questions: [
+					   {
+						   text: "5.1 The water supply must be adequate for operations intended and must be derived from an adequate source. All water coming into the plant needs to be as sanitary as necessary for the intended use. Any water, steam, or ice that contacts food, food-contact surfaces, or food-packaging materials must be safe and of adequate sanitary quality. Running water at a suitable temperature and, under pressure as needed, must be provided in all areas of processing, cleaning, packaging, and employee sanitation",
+						   references: [
+										{ text: "Water Supply (21CFR117.37.(a))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.37" }
+										]
+					   },
+					   {
+						   text: "5.2 Plumbing must be of adequate size and design, be able to carry adequate quantities of water, remove waste, not become a source of contamination of food or water, be adequately drained from the floor, and not allow backflow or cross-connection from wastewater and sewage",
+						   references: [
+										{ text: "Plumbing Requirements (21CFR117.37.(b))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.37" },
+										{ text: "NC State - Drainage and Backflow (Video)", url: "https://youtu.be/a1wsse3TIp0?start=2" }
+										]
+					   },
+					   {
+						   text: "5.3 Sewage treatment systems and septic systems are free of leaks and are functioning properly",
+						   references: [
+										{ text: "Sewage Disposal (21CFR117.37.(c))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.37" },
+										{ text: "Septic System Work (Video)", url: "https://www.youtube.com/watch?v=SQsBPqTvGU0" }
+										]
+					   },
+					   {
+						   text: "5.4 Toilets and handwashing stations must be readily accessible, clean and not a source of contamination",
+						   references: [
+										{ text: "Toilet Facilities (21CFR117.37.(d))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.37" },
+										{ text: "Hand-Washing Facilities (21CFR117.37.(e))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.37" },
+										{ text: "Handwashing for food workers (Video)", url: "https://www.youtube.com/watch?v=HUWpKtyfAS0" }
+										]
+					   },
+					   {
+						   text: "5.5 Rubbish and offal should be labelled. It must be stored and disposed of to minimize the development of odor, the potential to be an attractant for pests, and to not allow contamination of food, water, or surfaces throughout the plant.",
+						   references: [
+										{ text: "Rubbish and Offal (21CFR117.37.(f))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.37" }
+										]
+					   }
+					   ]
+	   },
+	   {
+		   section: "6. Equipment and Utensils",
+		   questions: [
+					   {
+						   text: "6.1 All equipment used in the plant must be designed to be readily cleanable and maintained to prevent allergen cross-contact",
+						   references: [
+										{ text: "Equipment and Utensil Design (21CFR117.40.(a).(1))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.40" }
+										]
+					   },
+					   {
+						   text: "6.2 Equipment must be designed and maintained to avoid the adulteration of food",
+						   references: [
+										{ text: "Equipment and Utensil Maintenance and Use (21CFR117.40.(a).(2))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.40" },
+										{ text: "Proper Cleaning and Sanitizing of Equipment and Utensils (21CFR117.80.(c).(1))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.80" }
+										]
+					   },
+					   {
+						   text: "6.3 Food contact surfaces must be made of nontoxic materials and must withstand the environment and foods they are used with",
+						   references: [
+										{ text: "Corrosion Resistance (21CFR117.40.(a).(4))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.40" },
+										{ text: "Resistance of Food Contact Surfaces (21CFR117.40.(a).(5))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.40" }
+										]
+					   },
+					   {
+						   text: "6.4 Seams on food contact surfaces must be smoothly bonded or maintained to minimize the accumulation of food, dirt, and organic matter",
+						   references: [
+										{ text: "Seams in Food Contact Surfaces (21CFR117.40.(b))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.40" }
+										]
+					   },
+					   {
+						   text: "6.5 All equipment in a food processing area must be kept clean and sanitary",
+						   references: [
+										{ text: "Protection of Food Contact Surfaces (21CFR117.40.(a).(6))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.40" },
+										{ text: "Protection of Non-Food Contact Surfaces (21CFR117.40.(c))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.40" },
+										{ text: "Cleaning and Protection of Holding and Conveying Systems (21CFR117.40.(d))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.40" },
+										{ text: "Cleaning and Sanitizing (Video)", url: "https://youtu.be/ECAN4IbG2jI?start=6" },
+										{ text: "Facility Cleaning (Video)", url: "https://youtu.be/lcwnKHHUk74?start=6" },
+										{ text: "Three Compartment Sink (Video)", url: "https://youtu.be/VbrDlN-M5zI?start=132" }
+										]
+					   },
+					   {
+						   text: "6.6 Any cold storage area must have a thermometer that records accurate temperatures, and temperature must be recorded routinely throughout the day",
+						   references: [
+										{ text: "Thermometers in Cooling Units (21CFR117.40.(e))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.40" },
+										{ text: "Cooler Thermometers (Video)", url: "https://youtu.be/71bKF2lE37E?start=873" },
+										{ text: "NC State - Walk-In Cooler (Video)", url: "https://youtu.be/MzP_i1QOPm4?start=2" }
+										]
+					   },
+					   {
+						   text: "6.7 Devices used to measuring, regulating, or recording temperatures, pH, acidity, water activity, or other conditions that control or prevent the growth of undesirable microorganisms in food must be accurate and precise, maintained, and regularly calibrated",
+						   references: [
+										{ text: "Calibration of Measuring Equipment (21CFR117.40.(e))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.40" },
+										{ text: "Thermometer Use and Calibration (Video)", url: "https://youtu.be/71bKF2lE37E?start=631" }
+										]
+					   },
+					   {
+						   text: "6.8 Any gases introduced into a food or used to clean food-contact surfaces must not be contaminated",
+						   references: [
+										{ text: "Compressed Air or Gasses Use (21CFR117.40.(g))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.40" },
+										{ text: "Compressed Air (Video)", url: "https://youtu.be/MLSm-v3x2-I?start=32" }
+										]
+					   }
+					   ]
+	   },
+	   {
+		   section: "7. Processes and Controls",
+		   questions: [
+					   {
+						   text: "7.1 All operations involving food must be conducted under adequate sanitation principles and must be supervised by one or more trained individuals assigned this duty",
+						   references: [
+										{ text: "Sanitation Principles (21CFR117.80.(a).(1))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.80" },
+										{ text: "Qualifications of Individuals Engaged in Food Manufacture (21 CFR §117.4(b)(2))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-A/section-117.4" }
+										]
+					   },
+					   {
+						   text: "7.2 The establishment must have appropriate quality control operations for all food to ensure it is safe for human consumption",
+						   references: [
+										{ text: "Quality Control (21CFR117.80.(a).(2))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.80" },
+										{ text: "GMPs in the Food Industry (Video)", url: "https://www.youtube.com/watch?v=hCvHklJgyeg&start=1150" }
+										]
+					   },
+					   {
+						   text: "7.3 Overall plant sanitation should be supervised by one or more trained individuals",
+						   references: [
+										{ text: "Supervisor Presence Requirement (21CFR117.80.(a).(3))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.80" },
+										{ text: "Qualifications of Individuals Engaged in Food Manufacture (21 CFR §117.4(b)(2))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-A/section-117.4" }
+										]
+					   },
+					   {
+						   text: "7.4 Ensuring all steps and precautions are taken to prevent allergen cross-contamination",
+						   references: [
+										{ text: "Cross-Contact Prevention  (21CFR117.80.(a).(4))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.80" },
+										{ text: "Detect Allergen Residue (Video)", url: "https://youtu.be/zE5w9DPovms?start=15" }
+										]
+					   },
+					   {
+						   text: "7.5 Testing procedures must be in place to identify sanitation failures or possible contamination of product",
+						   references: [
+										{ text: "Testing Procedures (21CFR117.80.(a).(5))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.80" },
+										{ text: "GMP - Water Quality (Video)", url: "https://www.youtube.com/watch?v=4wTIP-q2-sw" },
+										{ text: "GMP - Control of Operations (Video)", url: "https://www.youtube.com/watch?v=4wTIP-q2-sw&start=239" }
+										]
+					   },
+					   {
+						   text: "7.6 All food that is contaminated to the point of adulteration must be rejected, treated, or processed to eliminate the contamination",
+						   references: [
+										{ text: "Contaminated Food (21CFR117.80.(a).(6))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.80" },
+										{ text: "GMPs in the Food Industry (Video)", url: "https://www.youtube.com/watch?v=hCvHklJgyeg&start=1940" }
+										]
+					   },
+					   {
+						   text: "7.7 Raw materials must be inspected and handled to ensure suitability for processing into final product. Raw materials should be washed, cleaned, and stored appropriately to avoid contamination",
+						   references: [
+										{ text: "Raw Material Handling (21CFR117.80.(b).(1))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.80" },
+										{ text: "Raw Material Analysis and Processing (21CFR117.80.(b).(2))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.80" },
+										{ text: "Aflatoxins and Other Toxins in Raw Material (21CFR117.80.(b).(3))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.80" },
+										{ text: "Raw Materials Susceptible to Infestation (21CFR117.80.(b).(4))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.80" },
+										{ text: "Raw Material Storage (Video)", url: "https://www.youtube.com/watch?v=_osRX0AWLYQ" },
+										{ text: "GMPs in the Food Industry (Video)", url: "https://www.youtube.com/watch?v=hCvHklJgyeg&start=1940" }
+										]
+					   },
+					   {
+						   text: "7.8 Raw materials must be held in containers designed to prevent allergen cross-contact and contamination",
+						   references: [
+										{ text: "Prevention of Contamination and Cross-Contact in Raw Materials (21CFR117.80.(b).(5))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.80" },
+										{ text: "Allergen - Best practices in Facility Design", url: "https://www.crbgroup.com/insights/food-beverage/allergens-food-manufacturing" }
+										]
+					   },
+					   {
+						   text: "7.9 Frozen raw materials must be kept frozen and thawed in a manner to prevent allergen cross-contact or contamination",
+						   references: [
+										{ text: "Frozen Raw Materials (21CFR117.80.(b).(6))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.80" },
+										{ text: "Freezing & Food Safety", url: "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety" }
+										]
+					   },
+					   {
+						   text: "7.10 Food manufacturing, processing, packing, and holding must be conducted under conditions to minimize growth of microorganisms and allergen cross-contact",
+						   references: [
+										{ text: "Potential for Contamination During Storage and Processing (21CFR117.80.(c).(2))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.80" },
+										{ text: "Raw Materials Containing Allergens (21CFR117.80.(b).(8))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.80" },
+										{ text: "Nine Major Allergens", url: "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies#:~:text=of%20imported%20products.-,Major%20Food%20Allergens,from%20the%20marketplace%20or%20relabeled." },
+										{ text: "Practical Allergen Management (Video)", url: "https://www.youtube.com/watch?v=MNi0FNwwY0Y" }
+										]
+					   },
+					   {
+						   text: "7.11 Measures such as sterilizing, irradiating, pasteurizing, cooking, freezing, refrigerating, controlling pH, or controlling water activity must be taken to destroy or prevent growth of microorganisms",
+						   references: [
+										{ text: "Destruction of Microorganisms (21CFR117.80.(c).(4))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.80" },
+										{ text: "GMP in Food Industry (Video)", url: "https://www.youtube.com/watch?v=gCOtCsew_iA&start=74" },
+										{ text: "Arkansas Ag Div - Microbiology of Food Processing (Video)", url: "https://www.youtube.com/watch?v=nTvZGZV9Pwk" }
+										]
+					   },
+					   {
+						   text: "7.12 Work-in-process and rework must be handled to protect against allergen cross-contact and contamination",
+						   references: [
+										{ text: "Rework Foods (21CFR117.80.(c).(5))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.80" },
+										{ text: "Cross Contact vs Cross Contamination (Video)", url: "https://www.youtube.com/watch?v=2a9i418ULoE" },
+										{ text: "Allergen Management Controls (Video)", url: "https://www.youtube.com/watch?v=7-v5Tth-llE&start=40" }
+										]
+					   },
+					   {
+						   text: "7.13 Effective measures must be taken to protect finished food from allergen cross-contact and contamination by raw materials and refuse",
+						   references: [
+										{ text: "Protection of Finished Food (21CFR117.80.(c).(5))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.80" }
+										]
+					   },
+					   {
+						   text: "7.14 Effective measures must be taken to protect food-contact surfaces from allergen cross-contact and contamination",
+						   references: [
+										{ text: "Protection of Food-Contact Surfaces (21CFR117.80.(c).(6))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.80" }
+										]
+					   },
+					   {
+						   text: "7.15 Food manufacturing, processing, packing, and holding equipment must be designed to allow for adequate cleaning and maintenance",
+						   references: [
+										{ text: "Cleaning Continuous Production Equipment (21CFR117.80.(c).(6))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.80" }
+										]
+					   },
+					   {
+						   text: "7.16 Steps must be taken to ensure that drip and condensate from fixtures and ducts does not contaminate food",
+						   references: [
+										{ text: "Drip and Condensate (21CFR117.80.(c).(7))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.80" }
+										]
+					   },
+					   {
+						   text: "7.17 Aisles and working spaces must be free of obstructions and debris to allow employees to perform their duties",
+						   references: [
+										{ text: "Aisles and Working Spaces (21CFR117.80.(c).(8))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.80" }
+										]
+					   },
+					   {
+						   text: "7.18 If fans or ventilation systems are used, they must be designed to prevent allergen cross-contact or contamination",
+						   references: [
+										{ text: "Ventilation Systems (21CFR117.80.(c).(9))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.80" },
+										{ text: "Air for Food Industry (Video)", url: "https://youtu.be/OQX4BORjjbE?start=10" }
+										]
+					   }
+					   ]
+	   },
+	   {
+		   section: "8. Warehousing and Distribution",
+		   questions: [
+					   {
+						   text: "8.1 Storage and transportation of food must be under conditions that will protect against allergen cross-contact and against biological, chemical, and physical contamination of food, as well as against deterioration of the food and the container",
+						   references: [
+										{ text: "Storage and Transportation of Food (21CFR117.93)", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.93" },
+										{ text: "Food Transport (Video)", url: "https://youtu.be/71bKF2lE37E?start=1812" },
+										{ text: "Sanitary Transportation (Video)", url: "https://youtu.be/keV6dtwy30U?list=PL_bTWa1uOqMHgzZY7qGBr8VpCLf-WHCrP&start=4" },
+										{ text: "NC State - Ingredient Warehousing (Video)", url: "https://youtu.be/TWITs02UA_0?start=2" }
+										]
+					   },
+					   {
+						   text: "8.2 Upon receipt of food that requires temperature control for safety under the conditions of shipment, the receiver must take steps to adequately assess that the food was not subjected to significant temperature abuse",
+						   references: [
+										{ text: "Sanitary Transportation of Food (21CFR1.908.(d))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-O/subject-group-ECFRe79dfa68f350fd3/section-1.908" },
+										{ text: "Proper Food Storage (Video)", url: "https://youtu.be/HCEDoM-yca8?start=3" }
+										]
+					   },
+					   {
+						   text: "8.3 Stock rotation should be documented-first in, first out",
+						   references: [
+										{ text: "Proper Rotation of Stocks (21CFR117.80.(b).(1))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.80" },
+										{ text: "What is FIFO (Video)", url: "https://youtu.be/Kl6khNmOHd0?start=8" }
+										]
+					   },
+					   {
+						   text: "8.4 Finished product containers must be clearly labelled to identify contents and the presence of any allergens",
+						   references: [
+										{ text: "Labeling of Finished Food (21CFR117.135.(c).(2).(ii))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-C/section-117.135" },
+										{ text: "Use of Common Name for Allergens (21 CFR 101.4(a)(1))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.4" },
+										{ text: "FDA - Allergen Labeling (Video)", url: "https://youtu.be/P73r-QMMtdY?start=80" },
+										{ text: "Labeling and Recalls (Video)", url: "https://youtu.be/eLNpX7ASQGU?start=73" }
+										]
+					   }
+					   ]
+	   },
+	   {
+		   section: "9. Holding and Distribution of Human Food By-Products for Use as Animal Food",
+		   questions: [
+					   {
+						   text: "9.1 Containers and equipment used to hold human food by-products for use as animal food must be designed, constructed, cleaned, and maintained to protect against the contamination of human food by-products for use as animal food",
+						   references: [
+										{ text: "Human Food By-Products Containers (21CFR117.95.(a).(1))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.95" },
+										{ text: "21CFR117.95", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.95" }
+										]
+					   },
+					   {
+						   text: "9.2 Human food by-products for use as animal food held for distribution must be held in a way to protect against contamination from sources such as trash",
+						   references: [
+										{ text: "Human Food By-Product Holding (21CFR117.95.(a).(2))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.95" }
+										]
+					   },
+					   {
+						   text: "9.3 Human food by-products for use as animal food must be accurately identified",
+						   references: [
+										{ text: "Human Food By-Product Identification (21CFR117.95.(a).(3))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.95" },
+										{ text: "Human Food By-Product Identification (21CFR117.95.(b))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.95" }
+										]
+					   },
+					   {
+						   text: "9.4 Shipping containers and bulk vehicles used to distribute human food by-products for use as animal food must be examined prior to use to protect against contamination of the by-products",
+						   references: [
+										{ text: "Human Food By-Product Shipping Containers (21CFR117.95.(c))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.95" },
+										{ text: "21CFR117.95", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.95" }
+										]
+					   }
+					   ]
+	   },
+	   {
+		   section: "10. Defect Action Levels",
+		   questions: [
+					   {
+						   text: "10.1 The manufacturer, processor, packer, and holder of food must at all times utilize quality control operations that reduce natural or unavoidable defects to the lowest level possible",
+						   references: [
+										{ text: "Unavoidable Defects (21CFR117.110.(a))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.110" },
+										{ text: "21CFR117.110", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.110" }
+										]
+					   },
+					   {
+						   text: "10.2 Have written procedures for the handling of defective foods",
+						   references: [
+										{ text: "Written Procedures for Defective Foods (21CFR117.150.(a).(1))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-C/section-117.150" },
+										{ text: "21CFR117.110", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.110" }
+										]
+					   },
+					   {
+						   text: "10.3 The mixing of a food containing defects at levels that render that food adulterated with another lot of food is not permitted and renders the food adulterated",
+						   references: [
+										{ text: "Prohibition to Mix Adulterated Food (21CFR117.110.(b))", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.110" },
+										{ text: "FDA - Defect Action Level Handbook", url: "https://www.fda.gov/food/current-good-manufacturing-practices-cgmps-food-and-dietary-supplements/food-defect-levels-handbook" }
+										]
+					   }
+					   ]
+	   }
+	   ];
+
+        function generateNavigation(data) {
+            const navigationElement = document.getElementById('navigation');
+
+            for (const section of data) {
+                const listItem = document.createElement('li');
+                listItem.classList.add('cursor-pointer', 'hover:underline'); // Add hover effect
+                listItem.textContent = section.section;
+
+                listItem.addEventListener('click', () => {
+                    displaySectionContent(section);
+                });
+
+                navigationElement.appendChild(listItem);
+            }
+        }
+
+
+        function displaySectionContent(section) {
+            const contentElement = document.getElementById('content');
+            contentElement.innerHTML = ''; // Clear existing content
+
+            for (const question of section.questions) {
+                const questionDiv = document.createElement('div');
+                questionDiv.classList.add('question');
+
+                const h3 = document.createElement('h3');
+                h3.classList.add('text-lg', 'cursor-pointer', 'disclosure');
+                h3.textContent = question.text;
+
+                const referencesDiv = document.createElement('div');
+                referencesDiv.classList.add('hidden', 'ml-6', 'text-sm');
+
+                const ul = document.createElement('ul');
+                ul.classList.add('list-disc', 'space-y-1');
+
+                for (const reference of question.references) {
+                    const li = document.createElement('li');
+                    const a = document.createElement('a');
+                    a.href = reference.url;
+                    a.textContent = reference.text;
+                    a.target = '_blank'; // Open in new tab
+                    a.classList.add('text-blue-600', 'hover:underline');
+                    li.appendChild(a);
+                    ul.appendChild(li);
+                }
+
+                referencesDiv.appendChild(ul);
+                questionDiv.appendChild(h3);
+                questionDiv.appendChild(referencesDiv);
+
+                questionDiv.addEventListener('click', (event) => {
+                    if(event.target === h3){ //Only toggle if the click was on the question text
+                        referencesDiv.classList.toggle('hidden');
+                    }
+                });
+
+                contentElement.appendChild(questionDiv);
+            }
+        }
+
+
+        // Initialize the navigation and content when the page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            generateNavigation(checklistData);
+            // Optionally, display the first section on page load.  Uncomment to enable.
+            //displaySectionContent(checklistData[0]);
+        });
+
+    </script>
+</body>
+</html>
+
