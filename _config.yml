@@ -1,0 +1,4 @@
+# Set the site name to an empty string to remove the default title area
+name: ""
+# Explicitly set the title to null (optional, helps with some themes)
+title: null
