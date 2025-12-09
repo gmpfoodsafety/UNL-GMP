@@ -19,3 +19,5 @@ GMP Pre-Assessment: <a href="https://forms.cloud.microsoft/Pages/ResponsePage.as
 General GMP Checklist: <a href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=rQHb_YNJbkOrNRrwQ7gYyQ8ohWKJKLZOnrgXVaJI_AtUNklXOUZNOFNZNzA1VElYR0RXS044WkxMVC4u" target="_blank">Complete Checklist</a>
 &emsp;
 <a href="https://forms.cloud.microsoft/Pages/DesignPageV2.aspx?origin=NeoPortalPage&subpage=design&id=rQHb_YNJbkOrNRrwQ7gYyQ8ohWKJKLZOnrgXVaJI_AtUNklXOUZNOFNZNzA1VElYR0RXS044WkxMVC4u" target="_blank">Manage Checklist</a>
+
+References: <a href="HTML/References.html" target="_blank">Open List of References</a>
