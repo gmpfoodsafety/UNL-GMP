@@ -1,4 +1,4 @@
-# UNL-GMP
+# UNL GMP Project
 
 UNL MS Project on Food Safety and FSMA GMP Requirements
 
