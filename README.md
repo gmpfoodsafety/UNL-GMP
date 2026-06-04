@@ -3,8 +3,8 @@
 UNL MS Project on Food Safety and FSMA GMP Requirements
 
 <img src="Pictures/UNL%20Food%20Science.png" alt="UNL Food Science Logo" width="240"> <img src="Pictures/MainPageQR.png" alt="https://tinyurl.com/24msprmx" width="104">
-<br><a href="https://gmpfoodsafety.github.io/UNL-GMP/" target="_blank">https://gmpfoodsafety.github.io/UNL-GMP/</a>
-
+<br>Website: <a href="https://gmpfoodsafety.github.io/UNL-GMP/" target="_blank">https://gmpfoodsafety.github.io/UNL-GMP/</a>
+<br>GitHub: <a href="https://github.com/gmpfoodsafety/UNL-GMP/" target="_blank">https://github.com/gmpfoodsafety/UNL-GMP/</a>
 
 ## Checklists
 
