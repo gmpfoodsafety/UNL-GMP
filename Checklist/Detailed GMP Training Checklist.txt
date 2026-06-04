@@ -1,0 +1,702 @@
+GENERAL GMP CHECKLIST - LONG
+
+--
+LONG VERSION INDEX
+
+1. Personnel and Training
+2. Plant and Grounds
+3. Facility Water, Handwashing, and Waste Management
+4. Equipment and Utensils
+5. Processes and Controls
+6. Sanitation and Pest Control
+7. Warehousing and Distribution
+8. By-Products for Animal Food
+9. Defect Action Levels
+
+--
+CONTENT
+
+1. Personnel and Training
+
+1.1. Personnel Cleanliness Requirements
+a. CFR: Personnel must wear clean clothing suitable for the operation and maintain adequate personal cleanliness (§ 117.10(b)(1)).
+b. Requirement: Workers handling food or equipment must wear clean clothes appropriate for their job and keep themselves personally clean at all times.
+c. Significance: Dirty clothing or poor hygiene can transfer bacteria or dirt to food, causing illnesses like food poisoning in consumers.
+d. Fix: Provide clean uniforms daily, enforce daily showers or hand washing routines, and inspect workers before shifts start.
+e. Personnel Hygiene: https://www.youtube.com/watch?v=hCvHklJgyeg&t=230s
+f. Personnel Hygiene Requirements: https://www.youtube.com/watch?v=hCvHklJgyeg&t=332s
+g. Personal Hygiene for Produce Handling: https://www.youtube.com/watch?v=YrNWkB4Ah5I&list=PL_bTWa1uOqMHgzZY7qGBr8VpCLf-WHCrP&t=7s
+h. Visitor Management: https://www.youtube.com/watch?v=jxX38GDqzuw&list=PL_bTWa1uOqMHgzZY7qGBr8VpCLf-WHCrP&t=6s
+
+1.2. Hand Cleanliness During Operations
+a. CFR: Personnel must wash hands thoroughly and maintain hand cleanliness to prevent contamination (§ 117.10(b)(3)).
+b. Requirement: Workers must keep hands clean and wash them regularly during food handling to avoid spreading germs.
+c. Significance: Hands are a major source of microbes that can spoil RTE foods and make people sick if not kept clean.
+d. Fix: Set up multiple sinks with soap and post signs reminding workers to wash hands every 30 minutes or after touching non-food items.
+e. Handwashing Requirement: https://www.youtube.com/watch?v=71bKF2lE37E&t=87s
+f. Handwashing in the Farm: https://www.youtube.com/watch?v=x85c3gncv3U&list=PL_bTWa1uOqMHgzZY7qGBr8VpCLf-WHCrP&t=7s
+
+1.3. Removal of Jewelry and Stones
+a. CFR: Personnel must remove unsecured jewelry and other objects that might fall into food, equipment, or containers (§ 117.10(b)(4)).
+b. Requirement: No loose rings, watches, or bracelets allowed on hands or wrists while working with food.
+c. Significance: Loose items can fall into food, causing choking hazards or physical contamination in RTE products.
+d. Fix: Use a policy requiring all jewelry removal at entry points and provide secure storage lockers near work areas.
+e. Employee Jewelry Removal: https://www.youtube.com/watch?v=hCvHklJgyeg&t=487s
+
+1.4. Perspiration Control
+a. CFR: Personnel must take precautions to prevent contamination of food from perspiration (§ 117.10(b)(1)).
+b. Requirement: Wipe sweat from hands and arms promptly to prevent it from dripping into food during hot shifts.
+c. Significance: Sweat can carry skin bacteria into RTE foods, leading to spoilage or infections if consumed.
+d. Fix: Install fans or air conditioning in work areas and supply disposable wipes or towels for quick sweat removal.
+e. Air for the Food Industry: https://www.youtube.com/watch?v=OQX4BORjjbE&t=10s
+
+1.5. Hand Washing Before Starting Work
+a. CFR: Personnel must wash hands thoroughly before starting work and after each absence from their workstation (§ 117.10(b)(3)).
+b. Requirement: All workers must wash hands with soap and water right before beginning a shift and after breaks or leaving their station.
+c. Significance: Unwashed hands after breaks can introduce germs from bathrooms or outside, contaminating ready-to-eat items.
+d. Fix: Place handwashing stations at shift start areas and use timers or checklists to ensure compliance every time.
+e. Handwashing Requirement: https://www.youtube.com/watch?v=71bKF2lE37E&t=87s
+
+1.6. Hand Washing After Handling Personal Items
+a. CFR: Personnel must wash hands thoroughly after handling personal items that could contaminate food (§ 117.10(b)(3)).
+b. Requirement: Wash hands immediately after using the restroom, touching phones, or handling any personal belongings.
+c. Significance: Personal items often harbor bacteria that can transfer to food, increasing risk of outbreaks in RTE foods.
+d. Fix: Train staff with signs at sinks saying "Wash after restroom or phone use" and audit logs of handwashing frequency.
+e. Handwashing Requirement: https://www.youtube.com/watch?v=71bKF2lE37E&t=87s
+
+1.7. Hand Washing After Touching Unclean Objects
+a. CFR: Personnel must wash hands after contacting unclean surfaces to prevent contamination (§ 117.10(b)(3)).
+b. Requirement: Always wash hands after touching garbage, dirty tools, or any non-food surfaces during work.
+c. Significance: Dirty objects can spread pathogens like E. coli to hands, then directly to RTE products people eat without cooking.
+d. Fix: Designate "clean zones" and require glove changes or hand washes when crossing from dirty to food areas.
+e. Handwashing Requirement: https://www.youtube.com/watch?v=71bKF2lE37E&t=87s
+
+1.8. Disease Reporting and Exclusion
+a. CFR: Personnel with illnesses, open lesions, or infections that could contaminate food must be excluded from operations (§ 117.10(a)).
+b. Requirement: Sick workers with vomiting, diarrhea, or sores must stay home and report illnesses to supervisors.
+c. Significance: Ill workers can shed viruses like norovirus into food, causing widespread sickness in consumers of RTE meals.
+d. Fix: Create a simple illness reporting form and policy sending sick staff home immediately with paid sick leave incentives.
+e. Food-borne Illnesses Caused by Sick Employees: https://www.youtube.com/watch?v=IUldfdqJ9m0&t=4s
+f. Sick Employee Removal: https://www.youtube.com/watch?v=71bKF2lE37E&t=343s
+
+1.9. Hair Restraint Policies
+a. CFR: Personnel must wear effective hair restraints to prevent contamination (§ 117.10(b)(6)).
+b. Requirement: All staff with exposed hair must cover it completely with nets or hats while in production areas.
+c. Significance: Loose hair can fall into RTE foods, posing choking risks or carrying microbes that sicken eaters.
+d. Fix: Supply disposable hair nets at entry points and train managers to check compliance during daily walkthroughs.
+e. Personal Protective Equipment (PPE): https://www.youtube.com/watch?v=eHBqfyqIDrg&t=6s
+f. PPE for Catering: https://www.youtube.com/watch?v=VW66gmKQGCk
+g. PPE for Carcass Fabrication: https://www.youtube.com/watch?v=DegOALvEtPA&t=29s
+
+1.10. No Eating or Smoking in Production Areas
+a. CFR: Personnel must not eat, drink, chew gum, or use tobacco in areas where food is exposed (§ 117.10(b)(8)).
+b. Requirement: Ban all food, drinks, gum, or tobacco from food handling zones to avoid spit or crumbs in products.
+c. Significance: Eating in work areas introduces saliva bacteria or particles that can contaminate RTE foods and cause allergies or illness.
+d. Fix: Designate break rooms only for meals and post "No Eating Zone" signs with spot checks by supervisors.
+
+1.11. Protection from Clothing Contamination
+a. CFR: Personnel must take precautions to protect food and surfaces from contamination by clothing (§ 117.10(b)(1)).
+b. Requirement: Avoid leaning on or touching food with clothes; change aprons if soiled.
+c. Significance: Dirty clothes can transfer chemicals or germs to RTE items, leading to unsafe products reaching customers.
+d. Fix: Use aprons that tie in back for easy removal and train on "no touch" rules for exposed foods.
+e. Employee Dress Code: https://www.youtube.com/watch?v=UXxsXSTKPFo
+f. Work Clothing Requirement: https://www.youtube.com/watch?v=hCvHklJgyeg&t=401s
+g. Protective Clothing: https://www.youtube.com/watch?v=mjBaL_uD8O8&t=6s
+
+1.12. Training for Qualified Individuals
+a. CFR: Operations must be supervised by qualified individuals with training or experience to ensure safe food production (§ 117.80(a)(3)).
+b. Requirement: Key staff must have documented training to oversee food safety and spot issues.
+c. Significance: Untrained supervisors miss hazards, allowing contaminated RTE foods to be produced and sold.
+d. Fix: Hold annual training sessions with certificates and assign a safety lead for each shift.
+e. Qualified Individual Requirement: https://www.youtube.com/watch?v=Ik-INrYenoI&t=16s
+f. Definition of Qualified Individual (PCQI): https://www.youtube.com/watch?v=y0XKtSpNh8Q&t=827s
+g. Another Definition of PCQI: https://www.youtube.com/watch?v=Pc5IG7-VUvw&list=PL_bTWa1uOqMHgzZY7qGBr8VpCLf-WHCrP&t=4s
+h. Responsibilities of Qualified Individual: https://safetychain.com/blog/fsma-pcqi-responsibilities
+i. Employee Food Safety Training: https://www.youtube.com/watch?v=Zrn10HFswz0&list=PL_bTWa1uOqMHgzZY7qGBr8VpCLf-WHCrP&t=6s
+j. GMP Best Practices: https://www.youtube.com/watch?v=XxUr6N2Suig&t=1150s
+k. GMPs: https://www.youtube.com/watch?v=gCOtCsew_iA&t=74s
+l. Microbiology of Food: https://www.youtube.com/watch?v=nTvZGZV9Pwk
+
+1.13. Training to Recognize Issues
+a. CFR: Personnel must be trained to maintain sanitary conditions and prevent contamination (§ 117.10(b)).
+b. Requirement: Train all employees to identify and report dirty equipment or hygiene lapses quickly.
+c. Significance: Spotting problems early prevents big contamination events that could recall products and harm health.
+d. Fix: Use short weekly toolbox talks with examples and quiz workers on recognition.
+e. Employee Good Manufacturing Practices: https://www.youtube.com/watch?v=71bKF2lE37E&t=222s
+
+1.14. Designated Sanitation Monitors
+a. CFR: Sanitation procedures must be monitored and documented to ensure compliance (§ 117.35(a)).
+b. Requirement: Assign specific staff to check and record daily cleaning to ensure it's done right.
+c. Significance: Without checks, poor cleaning leads to bacteria buildup in RTE facilities, risking consumer illnesses.
+d. Fix: Create a daily log sheet for monitors to sign off on checks and rotate roles to keep it fresh.
+
+2. Plant and Grounds
+
+2.1. Proper Storage of Equipment on Grounds
+a. CFR: Grounds must be maintained to prevent pest attractants, including proper storage of equipment and removal of litter (§ 117.20(a)(1)).
+b. Requirement: Keep tools and waste stored neatly outside and mow grass regularly to deter rodents and insects.
+c. Significance: Clutter attracts pests that carry diseases into the plant, contaminating RTE foods indoors.
+d. Fix: Schedule weekly grounds cleanups and use covered bins for waste to block pest access.
+e. Exterior Ground Maintenance: https://www.youtube.com/watch?v=RuC7Jho-NQY&t=1s
+
+2.2. Maintenance of Roads and Parking Lots
+a. CFR: Roads, yards, and parking lots must be maintained to prevent contamination sources (§ 117.20(a)(2)).
+b. Requirement: Keep driveways and lots free of dust, oil, or standing water that could track dirt into the building.
+c. Significance: Muddy or dusty lots allow filth to be carried on shoes into production, dirtying RTE products.
+d. Fix: Pave or gravel lots and sweep daily; provide boot scrapers at entrances.
+
+2.3. Adequate Drainage Around Plant
+a. CFR: Areas around the plant must be adequately drained to prevent contamination by seepage or foot-borne filth (§ 117.20(a)(3)).
+b. Requirement: Ensure rainwater flows away from the building to prevent puddles that breed bacteria or track mud inside.
+c. Significance: Poor drainage creates wet spots where germs grow and spread via feet to food areas.
+d. Fix: Install gutters and gravel trenches; check after rains and fix clogs promptly.
+
+2.4. Waste Treatment Systems
+a. CFR: Waste treatment and disposal systems must be operated to avoid contamination (§ 117.20(a)(4)).
+b. Requirement: Manage trash and sewage systems so they don't leak odors or leaks near food zones.
+c. Significance: Leaking waste attracts flies and spreads odors that can taint RTE flavors or cause cross-contamination.
+d. Fix: Contract regular septic pumping and use sealed dumpsters emptied twice weekly.
+
+2.5. Bordering Grounds Control
+a. CFR: Uncontrolled adjacent grounds must be inspected and protected to exclude pests and filth (§ 117.20(a)(5)).
+b. Requirement: Regularly check fences and borders for pests coming from neighboring properties.
+c. Significance: Outside pests can sneak in and infest stored RTE ingredients, leading to recalls.
+d. Fix: Walk borders weekly with pest scouts and seal gaps in fences with mesh.
+
+2.6. Adequate Space for Operations
+a. CFR: The plant must provide sufficient space for equipment and material storage to ensure sanitary operations (§ 117.20(b)(1)).
+b. Requirement: Layout the facility with enough room to move around without bumping into food or tools.
+c. Significance: Crowded spaces cause accidental spills or touches that contaminate RTE batches.
+d. Fix: Map out floor plans annually and rearrange for better flow if needed.
+e. Sanitary Facility Design: https://www.youtube.com/watch?v=71bKF2lE37E&t=425s
+f. Proper Facility Entrance: https://www.youtube.com/watch?v=WYMV9WzsyKQ&t=2s
+g. Walk-In Cooler: https://www.youtube.com/watch?v=MzP_i1QOPm4&t=2s
+
+2.7. Precautions Against Allergen Cross-Contact
+a. CFR: The plant must be designed to reduce the risk of allergen cross-contact through separation or controls (§ 117.20(b)(2)).
+b. Requirement: Separate nut processing from dairy lines with walls or time schedules to avoid mix-ups.
+c. Significance: Allergen traces in RTE foods can cause severe reactions or deaths in sensitive customers.
+d. Fix: Validate separation with air tests and color-code tools for different allergens.
+e. Nine Main Food Allegens: https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies#:~:text=of%20imported%20products.-,Major%20Food%20Allergens,from%20the%20marketplace%20or%20relabeled
+f. Allergen Basics: https://www.youtube.com/watch?v=R1IorYhfbiE&t=6s
+g. Allergen Management: https://www.youtube.com/watch?v=y2uIyEYemCg&t=3031s
+h. Cross-Contact vs Cross-Contamination: https://www.youtube.com/watch?v=2a9i418ULoE
+
+2.8. Protection for Outdoor Bulk Vessels
+a. CFR: Outdoor bulk vessels must be protected against contamination (§ 117.20(b)(3)).
+b. Requirement: Cover tanks holding ingredients outside and inspect for bugs weekly.
+c. Significance: Exposed tanks let rain or pests in, spoiling bulk RTE supplies and wasting money.
+d. Fix: Use locked lids and schedule pest sweeps around vessels monthly.
+
+2.9. Cleanable Floors, Walls, and Ceilings
+a. CFR: Floors, walls, and ceilings must be constructed to be cleanable and kept in good repair (§ 117.20(b)(4)).
+b. Requirement: Use smooth, non-porous surfaces on walls and floors that wipe clean easily without cracks.
+c. Significance: Cracked surfaces hide bacteria that later contaminate cleaned RTE equipment.
+d. Fix: Inspect quarterly and repair chips with food-grade sealants.
+e. Sanitary Facility Design: https://www.youtube.com/watch?v=71bKF2lE37E&t=425s
+f. Receiving Docks: https://www.youtube.com/watch?v=OREOecASVeY&t=2s
+
+2.10. Prevention of Drip Contamination
+a. CFR: Fixtures must be designed to prevent drip or condensate from contaminating food (§ 117.20(b)(4)).
+b. Requirement: Seal pipes and ducts to stop water leaks from overhead onto production lines.
+c. Significance: Dripping water spreads microbes across RTE areas, increasing mold or bacterial growth.
+d. Fix: Install drip pans under condensers and check seals during monthly maintenance.
+e. Sanitary Facility Design: https://www.youtube.com/watch?v=71bKF2lE37E&t=425s
+
+2.11. Adequate Aisles and Working Spaces
+a. CFR: Aisles and working spaces must be unobstructed and of adequate width to prevent contamination (§ 117.20(b)(4)).
+b. Requirement: Keep at least 3-foot wide paths between machines for safe movement without touching foods.
+c. Significance: Narrow paths lead to bumps spilling ingredients or transferring dirt to RTE items.
+d. Fix: Mark aisles with tape and train on traffic flow rules.
+e. Sanitary Facility Design: https://www.youtube.com/watch?v=71bKF2lE37E&t=425s
+
+2.12. Adequate Lighting in Key Areas
+a. CFR: Adequate lighting must be provided in hand-washing, dressing, toilet, and food handling areas (§ 117.20(b)(5)).
+b. Requirement: Install bright LED lights (at least 50 foot-candles) in production and cleaning spots.
+c. Significance: Dim lights hide dirt or defects in RTE foods, allowing unsafe products out.
+d. Fix: Test light levels with a meter yearly and replace bulbs promptly.
+e. Sanitary Facility Design: https://www.youtube.com/watch?v=71bKF2lE37E&t=425s
+f. Adequate Illumination: https://www.youtube.com/watch?v=qVMe0RBLGZQ&t=21s
+
+2.13. Shatter-Resistant Lighting
+a. CFR: Lighting must be protected to prevent contamination from breakage (§ 117.20(b)(5)).
+b. Requirement: Coat all overhead lights with plastic guards where food is open below.
+c. Significance: Broken glass in RTE can cause injuries or force full product recalls.
+d. Fix: Retrofit all fixtures with guards and inspect for cracks monthly.
+e. Sanitary Facility Design: https://www.youtube.com/watch?v=71bKF2lE37E&t=425s
+
+2.14. Ventilation to Minimize Dust and Odors
+a. CFR: Ventilation systems must minimize dust, odors, and vapors that could contaminate food (§ 117.20(b)(6)).
+b. Requirement: Install exhaust fans to pull out steam and smells from cooking areas.
+c. Significance: Trapped odors or dust settle on RTE surfaces, altering taste or adding allergens.
+d. Fix: Clean vents quarterly and balance air flow to avoid pulling contaminants in.
+e. Sanitary Facility Design: https://www.youtube.com/watch?v=71bKF2lE37E&t=425s
+f. Air for the Food Industry: https://www.youtube.com/watch?v=OQX4BORjjbE&t=10s
+
+2.15. Air-Blowing Equipment Operation
+a. CFR: Fans must be operated to minimize allergen cross-contact and contamination (§ 117.20(b)(6)).
+b. Requirement: Direct fans away from open food lines to prevent blowing dust toward products.
+c. Significance: Misaimed air spreads particles like allergens across the facility into RTE batches.
+d. Fix: Map fan directions on a diagram and test airflow annually.
+e. Air for the Food Industry: https://www.youtube.com/watch?v=OQX4BORjjbE&t=10s
+f. Compressed Air: https://www.youtube.com/watch?v=MLSm-v3x2-I&t=32s
+
+2.16. Protection Against Pests
+a. CFR: Effective measures, such as screening, must be used to protect against pests (§ 117.20(b)(7)).
+b. Requirement: Screen all doors and windows to keep flies and rodents out of the building.
+c. Significance: Pests drop feces or hair into RTE foods, spreading diseases like salmonella.
+d. Fix: Install self-closing doors and repair screens immediately if torn.
+e. Sanitary Facility Design: https://www.youtube.com/watch?v=71bKF2lE37E&t=425s
+f. Whole Foods Rodent Facility Closure: https://www.youtube.com/watch?v=8rOWdeGelcU&t=6s
+g. Twelve Tips for Reducing Exterior Pest Attraction: https://www.qualityassurancemag.com/article/12-practical-tips--for-reducing--exterior-pest-attraction/
+
+2.17. Validated Allergen Control Plan
+a. CFR: Measures must be taken to prevent allergen cross-contact, including validated controls (§ 117.80(a)(4)).
+b. Requirement: Document and test methods to keep allergens from mixing in shared spaces.
+c. Significance: Uncontrolled allergens cause life-threatening reactions in RTE consumers.
+d. Fix: Run swab tests quarterly and update plan based on results.
+e. Nine Main Food Allergens: https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies#:~:text=of%20imported%20products.-,Major%20Food%20Allergens,from%20the%20marketplace%20or%20relabeled
+f. Allergen Residue Testing: https://www.youtube.com/watch?v=zE5w9DPovms&t=15s
+g. Allergen Basics: https://www.youtube.com/watch?v=R1IorYhfbiE&t=6s
+h. Allergen Regulatory Requirements: https://www.youtube.com/watch?v=g-tvFNKTDao&t=236s
+i. Allergen Management: https://www.youtube.com/watch?v=y2uIyEYemCg&t=3031s
+j. Allergen Management Control: https://www.youtube.com/watch?v=7-v5Tth-llE&t=40s
+k. Practical Allergen Management: https://www.youtube.com/watch?v=MNi0FNwwY0Y
+l. Allergen Best Practices: https://www.crbgroup.com/insights/food-beverage/allergens-food-manufacturing
+
+3. Facility Water, Handwashing, and Waste Management
+
+3.1. Potable Water Supply
+a. CFR: Water contacting food or surfaces must be safe and of sanitary quality (§ 117.37(a)).
+b. Requirement: Use only tested city or well water safe for drinking in all food processes.
+c. Significance: Unsafe water introduces pathogens directly into RTE foods, causing outbreaks.
+d. Fix: Test water annually via lab and post results; use filters if needed.
+e. Ice Machine Safety: https://www.youtube.com/watch?v=VPSXZfFvz6M&t=1s
+f. Ice Machine Safety (bis): https://www.youtube.com/watch?v=gc_ph0KsuJQ&t=5s
+g. Ice is Food: https://www.youtube.com/watch?v=8HQdEFCYAEk&t=2s
+h. EcoLab Ice Handler Demo: https://www.youtube.com/watch?v=Esv2YRT6Lu4
+i. How an Ice Maker Works: https://www.youtube.com/shorts/xbH2XH5Pxmo
+
+3.2. Adequate Water Quantity and Pressure
+a. CFR: Running water must be provided at suitable temperature and pressure for all required operations (§ 117.37(a)).
+b. Requirement: Ensure hot and cold water flows strongly at sinks for washing and processing.
+c. Significance: Weak water flow leaves residues on equipment, allowing bacteria to grow on RTE lines.
+d. Fix: Check pressure gauges monthly and upgrade pipes if low.
+
+3.3. Backflow Prevention in Water System
+a. CFR: Plumbing must prevent backflow to protect potable water supply (§ 117.37(b)(1)).
+b. Requirement: Fit all hoses and faucets with devices stopping dirty water from flowing back into clean supply.
+c. Significance: Backflow contaminates the whole water system, tainting all RTE production.
+d. Fix: Inspect devices yearly by plumber and label them for easy checks.
+e. Drainage and Backflow Prevention: https://www.youtube.com/watch?v=a1wsse3TIp0&t=2s
+
+3.4. Handwashing Stations Availability
+a. CFR: Adequate hand-washing facilities with warm water, soap, and drying devices must be provided (§ 117.37(e)).
+b. Requirement: Place sinks with soap and dryers near every work station for easy access.
+c. Significance: Lack of sinks means unwashed hands touch RTE foods, spreading germs easily.
+d. Fix: Install 1 sink per 10 workers and stock supplies daily.
+
+3.5. Toilet Facilities Accessibility
+a. CFR: Toilet facilities must be adequate, accessible, and maintained (§ 117.37(c)).
+b. Requirement: Have enough clean restrooms close to production without long walks.
+c. Significance: Dirty or far toilets encourage poor hygiene, leading to hand contamination of foods.
+d. Fix: Clean toilets twice daily and add signs directing to nearest ones.
+
+3.6. Toilet Facility Cleanliness
+a. CFR: Toilet facilities must be kept clean and in good repair (§ 117.37(c)).
+b. Requirement: Wipe down toilets and floors regularly to prevent odors or germs building up.
+c. Significance: Filthy restrooms breed bacteria tracked back to RTE areas on shoes or hands.
+d. Fix: Assign a daily cleaner and use checklists for inspections.
+
+3.7. Sewage Disposal Adequacy
+a. CFR: Sewage must be disposed of through an adequate system to prevent contamination (§ 117.37(d)).
+b. Requirement: Connect to city sewer or septic that doesn't leak near the plant.
+c. Significance: Sewage leaks spread viruses like hepatitis to ground and into RTE water sources.
+d. Fix: Pump septic yearly and monitor for wet spots around drains.
+
+3.8. Waste Disposal from Plant
+a. CFR: Rubbish must be disposed of to avoid contamination and pest attraction (§ 117.37(f)).
+b. Requirement: Use lidded bins for trash inside and out, away from doors.
+c. Significance: Open trash draws rodents that chew into RTE storage, spreading filth.
+d. Fix: Line bins with bags and schedule pickups to keep them from overflowing.
+
+4. Equipment and Utensils
+
+4.1. Design to Prevent Contamination
+a. CFR: Equipment and utensils must be designed to prevent contamination and be cleanable (§ 117.40(a)(1)).
+b. Requirement: Use smooth, rust-proof materials for all tools touching food.
+c. Significance: Poor design traps food bits where bacteria grow, spoiling RTE batches.
+d. Fix: Audit equipment yearly for cracks and replace non-compliant items.
+
+4.2. Corrosion-Resistant Surfaces
+a. CFR: Food-contact surfaces must be corrosion-resistant and made of non-toxic materials (§ 117.40(a)(2)).
+b. Requirement: Choose stainless steel or plastic parts that don't rust or soak up liquids.
+c. Significance: Rusty or absorbent surfaces leach metals or hold moisture for microbial growth in RTE.
+d. Fix: Label approved materials and train buyers on specs.
+
+4.3. Easy Cleaning and Maintenance
+a. CFR: Equipment must be designed and maintained to facilitate cleaning (§ 117.40(a)(3)).
+b. Requirement: Ensure machines have removable parts for thorough washing.
+c. Significance: Hard-to-clean gear harbors biofilms that contaminate every RTE run.
+d. Fix: Create disassembly guides and schedule deep cleans weekly.
+
+4.4. No Lubricants in Food Zones
+a. CFR: Lubricants on food-contact surfaces must be food-grade and safe (§ 117.40(a)(5)).
+b. Requirement: Use food-grade oils only on bearings, never directly on food paths.
+c. Significance: Toxic lubes can drip into RTE, causing chemical poisoning if eaten.
+d. Fix: Store food-grade lubes separately and apply with droppers.
+
+4.5. Temperature Control Equipment Accuracy
+a. CFR: Equipment used for temperature control must be accurate and maintained (§ 117.40(b)).
+b. Requirement: Calibrate fridges and thermometers to exact temps for RTE storage.
+c. Significance: Wrong temps let pathogens multiply in cold RTE salads or meats.
+d. Fix: Calibrate quarterly with certified tools and log results.
+e. Thermometer Use: https://www.youtube.com/watch?v=71bKF2lE37E&t=631s
+f. Refrigerator Thermometers: https://www.youtube.com/watch?v=71bKF2lE37E&t=873s
+
+4.6. pH and Water Activity Meters
+a. CFR: Instruments for measuring pH or water activity must be accurate and adequate (§ 117.40(b)).
+b. Requirement: Use reliable meters to check acidity or moisture in recipes.
+c. Significance: Inaccurate readings allow unsafe levels where bacteria thrive in RTE sauces.
+d. Fix: Test meters against standards monthly and train one staff per shift.
+
+4.7. Equipment Maintenance Schedule
+a. CFR: Equipment must be maintained in a sanitary condition and repaired as needed (§ 117.40(c)).
+b. Requirement: Inspect and fix broken parts before they affect production.
+c. Significance: Broken equipment leaks contaminants into RTE lines, risking quality loss.
+d. Fix: Use a maintenance calendar app for reminders and parts inventory.
+
+4.8. Frozen Food Handling Equipment
+a. CFR: Frozen foods must be kept frozen and thawed in a manner that prevents adulteration (§ 117.80(b)(6)).
+b. Requirement: Thaw only what you use and discard extras to avoid bacterial risks.
+c. Significance: Refreezing creates ice crystals that harbor germs in RTE frozen meals.
+d. Fix: Portion control thawing in fridge and track usage logs.
+e. Proper Thawing of Food: https://www.youtube.com/watch?v=gTitbP5_FtY&t=371s
+f. Freezing and Food Safety: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety
+
+5. Processes and Controls
+
+5.1. Supervision by Trained Personnel
+a. CFR: Operations must be supervised by competent individuals responsible for sanitation (§ 117.80(a)(3)).
+b. Requirement: Have a trained person overseeing each shift to ensure safe practices.
+c. Significance: Unsupervised steps miss hazards, letting contaminated RTE reach shelves.
+d. Fix: Post shift lead rosters and rotate training to cover all.
+e. Blanching in Food Manufacturing: https://www.youtube.com/watch?v=pdwE1_tL-Zw&t=647s
+f. Blanching in Thermal Processing: https://www.youtube.com/watch?v=T_icDygKiAE&t=429s
+g. LACF and Acidified Foods Regulatory Requirements: https://www.youtube.com/watch?v=F2rz_2_IEQU
+h. Challenge Studies for Acidified Foods: https://www.youtube.com/watch?v=5LtnziEAcsU&t=122s
+
+5.2. Raw Material Inspection
+a. CFR: Raw materials must be inspected to ensure they are clean and suitable for processing (§ 117.80(b)(1)).
+b. Requirement: Check incoming ingredients for dirt or damage before accepting.
+c. Significance: Bad raw materials introduce toxins early, spoiling entire RTE batches.
+d. Fix: Train receivers with checklists and reject stamped lots.
+e. Ingredient Warehousing: https://www.youtube.com/watch?v=TWITs02UA_0&t=2s
+
+5.3. Raw Material Storage Conditions
+a. CFR: Raw materials must be stored to protect against contamination and deterioration (§ 117.80(b)(1)).
+b. Requirement: Keep dry goods in sealed bins off floors, away from walls.
+c. Significance: Poor storage lets moisture or pests ruin ingredients for RTE mixes.
+d. Fix: Label shelves with dates and rotate stock FIFO.
+e. Proper Food Storage: https://www.youtube.com/watch?v=gTitbP5_FtY&t=291s
+f. Proper Food Storage (bis): https://www.youtube.com/watch?v=HCEDoM-yca8&t=3s
+g. FIFO Method of Food Storage: https://www.youtube.com/watch?v=Kl6khNmOHd0&t=8s
+h. Raw Material Storage and Warehousing: https://www.youtube.com/watch?v=_osRX0AWLYQ
+
+5.4. Supply Chain Ingredient Control
+a. CFR: Raw materials must be handled to ensure they meet safety specifications (§ 117.80(b)(3)).
+b. Requirement: Only buy from vetted vendors who provide purity certificates.
+c. Significance: Unverified supplies can have undeclared allergens or contaminants in RTE.
+d. Fix: Maintain vendor approval list and audit annually.
+
+5.5. Work-in-Progress Handling
+a. CFR: Work-in-process must be handled to protect against contamination (§ 117.80(c)(5)).
+b. Requirement: Cover partial batches and move quickly to next step.
+c. Significance: Exposed WIP picks up airborne dust or allergens, tainting final RTE.
+d. Fix: Use covered carts and time limits for staging.
+e. Proper Food Storage: https://www.youtube.com/watch?v=gTitbP5_FtY&t=291s
+
+5.6. Finished Product Protection
+a. CFR: Finished products must be protected from contamination during holding (§ 117.80(c)(6)).
+b. Requirement: Seal packages immediately after filling to block air and bugs.
+c. Significance: Open finished RTE allows recontamination before shipping.
+d. Fix: Inspect seals on line and quarantine if faulty.
+e. Protection from Intentional Contamination: https://www.youtube.com/watch?v=0uAdDmQ99Y4&list=PL_bTWa1uOqMHgzZY7qGBr8VpCLf-WHCrP&t=4s
+f. Proper Food Storage: https://www.youtube.com/watch?v=gTitbP5_FtY&t=291s
+
+5.7. Temperature Monitoring for Growth Control
+a. CFR: Foods must be held at temperatures that prevent microbial growth (§ 117.80(c)(3)).
+b. Requirement: Log fridge temps every 2 hours for perishable RTE.
+c. Significance: Warm spots let listeria grow in ready-to-eat deli meats and other foods.
+d. Fix: Use digital loggers with alarms and review logs daily.
+f. Refrigerator Thermometers: https://www.youtube.com/watch?v=71bKF2lE37E&t=873s
+g. Food Transportation: https://www.youtube.com/watch?v=71bKF2lE37E&t=1812s
+
+5.8. pH and Aw Monitoring
+a. CFR: pH and water activity must be controlled to prevent microbial growth (§ 117.80(c)(15) and § 117.80(c)(14)).
+b. Requirement: Test each batch for safe acidity or dryness levels.
+c. Significance: Wrong pH allows botulism in low-acid RTE canned goods.
+d. Fix: Standardize recipes and calibrate meters before use.
+e. Water Activity in Food Safety: https://www.youtube.com/watch?v=9gN4z1nMI3I&t=46s
+
+5.9. Oxygen Levels for Perishables
+a. CFR: Measures must be taken to control conditions that prevent microbial growth (§ 117.80(c)(4)).
+b. Requirement: Use vacuum packaging for oxygen-sensitive RTE like cheeses.
+c. Significance: Excess oxygen speeds spoilage and mold in packaged RTE.
+d. Fix: Check vacuum seals and store in low-O2 zones.
+
+5.10. Testing for Sanitation Failures
+a. CFR: Testing must be conducted to identify sanitation failures or contamination (§ 117.80(a)(5)).
+b. Requirement: Swab surfaces weekly for bacteria counts.
+c. Significance: Undetected filth leads to chronic contamination in RTE lines.
+d. Fix: Send swabs to local lab and act on high results immediately.
+
+5.11. Environmental Pathogen Monitoring
+a. CFR: Testing must be conducted to identify possible contamination, including environmental pathogens (§ 117.80(a)(5)).
+b. Requirement: Test zones for listeria monthly in wet RTE areas.
+c. Significance: Hidden pathogens in drains cause recalls and illnesses.
+d. Fix: Map high-risk zones and deep clean based on tests.
+
+5.12. Product Testing for Contaminants
+a. CFR: Testing must be conducted to ensure food safety and prevent adulteration (§ 117.80(a)(5)).
+b. Requirement: Sample final RTE for metals or chemicals quarterly.
+c. Significance: Contaminants slip through without tests, harming eaters.
+d. Fix: Partner with affordable testing service and hold stock until cleared.
+
+5.13. Process Adjustments for Deviations
+a. CFR: Corrective actions must be taken when critical limits are not met (§ 117.80(a)(6)).
+b. Requirement: Stop line and rework if temp exceeds safe limit.
+c. Significance: Deviations allow hazards to build, risking RTE safety.
+d. Fix: Write simple SOPs for common fixes and train all staff.
+e. Documentation Requirements: https://www.youtube.com/watch?v=xl07UaO6lgY&t=6s
+
+5.14. Labeling to Prevent Cross-Contact
+a. CFR: Food must be handled and labeled to prevent allergen cross-contact (§ 117.80(b)(8)).
+b. Requirement: Tag batches with allergen info during processing.
+c. Significance: Mislabels cause allergic reactions in RTE buyers.
+d. Fix: Use barcode systems for tracking allergens.
+
+6. Sanitation and Pest Control
+
+6.1. General Plant Maintenance
+a. CFR: Buildings and facilities must be maintained in a sanitary condition to prevent adulteration (§ 117.35(a)).
+b. Requirement: Repair leaks and clean floors daily to keep everything spotless.
+c. Significance: Dirty facilities breed germs that jump to RTE during production.
+d. Fix: Daily walkthrough checklists for all areas.
+
+6.2. Cleaning of Utensils and Equipment
+a. CFR: Utensils and equipment must be cleaned and sanitized to prevent contamination (§ 117.35(a)).
+b. Requirement: Wash tools with hot soapy water then sanitizer after each use.
+c. Significance: Residues on tools transfer allergens or bacteria to next RTE batch.
+d. Fix: Set up a 3-sink system and time washes.
+e. Three Compartment Sink Process: https://www.youtube.com/watch?v=VbrDlN-M5zI&t=132s
+f. Two-Step Cleaning and Sanitizing: https://www.youtube.com/watch?v=r0sWf0jf6T4&t=3s
+g. Cleaning and Sanitation of Equipment and Utensils: https://www.youtube.com/watch?v=ECAN4IbG2jI&t=6s
+h. Sanitary Zone Concept: https://www.youtube.com/watch?v=kNwT-5zwtjk&list=PL_bTWa1uOqMHgzZY7qGBr8VpCLf-WHCrP&t=5s
+
+6.3. Safe Cleaning Compounds
+a. CFR: Cleaning compounds must be safe and free from undesirable microorganisms (§ 117.35(b)(1)).
+b. Requirement: Buy cleaners with supplier guarantees of purity.
+c. Significance: Contaminated cleaners add germs to surfaces, worsening RTE hygiene.
+d. Fix: Keep spec sheets on file and rotate stock.
+e. Food Grade Cleaning Agents: https://www.youtube.com/watch?v=edBTFMviZYw&t=99s
+
+6.4. Storage of Toxic Materials
+a. CFR: Toxic materials must be stored to prevent contamination of food (§ 117.35(b)(2)).
+b. Requirement: Lock chemicals in separate room away from food storage.
+c. Significance: Spilled toxins can poison RTE ingredients or workers.
+d. Fix: Label shelves "Chemicals Only" and inventory monthly.
+e. Storage of Cleaners and Sanitizers: https://www.youtube.com/watch?v=lcwnKHHUk74&t=42s
+f. Sanitation Chemicals Storage: https://www.youtube.com/watch?v=j9WKqE8IouM&t=3s
+g. Chemical Control: https://www.youtube.com/watch?v=irqi45r8xEA&t=3s
+h. Chemical Storage Safety: https://www.youtube.com/watch?v=4GUSQj-xOBY
+
+6.5. Pest Exclusion Measures
+a. CFR: Effective measures must be taken to exclude pests from the facility (§ 117.35(c)).
+b. Requirement: Seal cracks and use door sweeps to block entry points.
+c. Significance: Pests contaminate with droppings, causing salmonella in RTE.
+d. Fix: Monthly pest audits and bait stations outside only.
+e. Pest Control: https://www.youtube.com/watch?v=71bKF2lE37E&t=1638s
+f. Pest Management: https://www.youtube.com/watch?v=wnVfiPxEq90&list=PL_bTWa1uOqMHgzZY7qGBr8VpCLf-WHCrP&t=6s
+
+6.6. Pesticide Use Restrictions
+a. CFR: Pesticides must be used in a manner that prevents food contamination (§ 117.35(c)).
+b. Requirement: Apply only by licensed pros when plant is empty.
+c. Significance: Pesticide residues on surfaces taint RTE taste and health.
+d. Fix: Document applications and wait 24 hours before reopening.
+
+6.7. Frequency of Food-Contact Cleaning
+a. CFR: Food-contact surfaces must be cleaned as frequently as necessary to prevent contamination (§ 117.35(d)).
+b. Requirement: Scrub lines after every shift or product change.
+c. Significance: Buildup harbors listeria that survives to next RTE run.
+d. Fix: Schedule based on use and verify with ATP swabs.
+e. Two-Step Cleaning and Sanitizing: https://www.youtube.com/watch?v=r0sWf0jf6T4&t=3s
+
+6.8. Dry Cleaning for Low-Moisture Foods
+a. CFR: For low-moisture foods, food-contact surfaces must be cleaned and kept dry (§ 117.35(d)(1)).
+b. Requirement: Air dry or towel dry after washing dry food tools.
+c. Significance: Wet spots on dry lines grow mold in powdered RTE mixes.
+d. Fix: Use dedicated dry cloths and fan drying.
+e. Allergen Management: https://www.youtube.com/watch?v=y2uIyEYemCg&t=3031s
+f. Air for the Food Industry: https://www.youtube.com/watch?v=OQX4BORjjbE&t=10s
+
+6.9. Wet Processing Cleaning
+a. CFR: In wet processing, food-contact surfaces must be cleaned and sanitized before use and after interruptions (§ 117.35(d)(2)).
+b. Requirement: Sanitize soup lines after breaks to kill any settled germs.
+c. Significance: Interruptions let biofilms form, contaminating RTE soups.
+d. Fix: Quick-rinse protocols for short stops.
+e. Two-Step Cleaning and Sanitizing: https://www.youtube.com/watch?v=r0sWf0jf6T4&t=3s
+f. Cleaning Out of Place (COP): https://www.youtube.com/watch?v=vpk5-mUwVcs&t=2s
+g. Cleaning In Place (CIP) vs COP: https://www.youtube.com/watch?v=NFkwF6PWNtw&t=6s
+
+6.10. Continuous Operation Cleaning
+a. CFR: In continuous operations, food-contact surfaces must be cleaned as necessary during production (§ 117.35(d)(2)).
+b. Requirement: Spot clean moving belts hourly in long runs.
+c. Significance: Uncleaned continuous lines accumulate debris over hours.
+d. Fix: Assign roving cleaners with portable kits.
+e. Two-Step Cleaning and Sanitizing: https://www.youtube.com/watch?v=r0sWf0jf6T4&t=3s
+
+6.11. Single-Service Articles Handling
+a. CFR: Single-service articles must be stored and handled to prevent contamination (§ 117.35(d)(3)).
+b. Requirement: Keep paper cups in sealed boxes off floor.
+c. Significance: Dirty disposables add fibers or germs to RTE packaging.
+d. Fix: First-in boxes and discard damaged ones.
+
+6.12. Non-Food-Contact Surface Cleaning
+a. CFR: Non-food-contact surfaces must be cleaned as necessary to protect food (§ 117.35(e)).
+b. Requirement: Wipe machine exteriors weekly to prevent dust transfer.
+c. Significance: Dirty outsides shed particles onto clean insides during RTE.
+d. Fix: Use damp mops and schedule after production.
+e. Facility Cleaning: https://www.youtube.com/watch?v=lcwnKHHUk74&t=6s
+f. Sanitary Zone Concept: https://www.youtube.com/watch?v=kNwT-5zwtjk&list=PL_bTWa1uOqMHgzZY7qGBr8VpCLf-WHCrP&t=5s
+g. Floor Sanitation: https://www.youtube.com/watch?v=Vf04bjfnKGs&t=2s
+
+6.13. Storage of Cleaned Equipment
+a. CFR: Cleaned equipment must be stored to protect food-contact surfaces (§ 117.35(f)).
+b. Requirement: Hang utensils upside down in covered racks.
+c. Significance: Stacked wet tools recontaminate each other for next use.
+d. Fix: Dry racks with drains and cover when not in use.
+
+6.14. Pest Control Program Effectiveness
+a. CFR: An effective pest control program must be maintained to prevent contamination (§ 117.35(c)).
+b. Requirement: Hire pros for quarterly treatments and monitor traps.
+c. Significance: Pests undetected spread throughout, ruining RTE reputation.
+d. Fix: Log trap checks and alert on any signs.
+
+6.15. Cleaning Documentation
+a. CFR: Sanitation monitoring and corrective actions must be documented (§ 117.35(a)).
+b. Requirement: Sign off on each clean with who, when, and method.
+c. Significance: No records mean can't prove compliance during audits.
+d. Fix: Simple paper logs or app entries kept 2 years.
+e. Documentation Requirements: https://www.youtube.com/watch?v=xl07UaO6lgY&t=6s
+f. Two-Step Cleaning and Sanitizing: https://www.youtube.com/watch?v=r0sWf0jf6T4&t=3s
+
+7. Warehousing and Distribution
+
+7.1. Storage Conditions Control
+a. CFR: Food must be held under conditions that prevent contamination and deterioration (§ 117.93(a)).
+b. Requirement: Keep warehouse at 40-70°F with low humidity for dry RTE.
+c. Significance: Wrong conditions cause mold or pests in stored RTE packs.
+d. Fix: Install hygrometers and alarm if out of range.
+e. Proper Food Storage: https://www.youtube.com/watch?v=gTitbP5_FtY&t=291s
+f. Humidity Control: https://www.youtube.com/watch?v=_KdHyawKdUQ&t=33s
+
+7.2. Transportation Protection
+a. CFR: Food must be transported under conditions that prevent contamination (§ 117.93(b)).
+b. Requirement: Use clean, covered trucks dedicated to food.
+c. Significance: Dirty trucks transfer chemicals or allergens to RTE shipments.
+d. Fix: Inspect vehicles pre-load and clean after each trip.
+e. Sanitary Transportation of Food: https://www.youtube.com/watch?v=keV6dtwy30U&list=PL_bTWa1uOqMHgzZY7qGBr8VpCLf-WHCrP&t=4s
+f. Proper Food Storage: https://www.youtube.com/watch?v=gTitbP5_FtY&t=291s
+
+7.3. Allergen Cross-Contact in Holding
+a. CFR: Food must be held to prevent allergen cross-contact (§ 117.80(c)(6)).
+b. Requirement: Segregate allergen packs in warehouse by type.
+c. Significance: Mixed storage leads to label errors and reactions.
+d. Fix: Color-coded shelves and double-check loads.
+e. Proper Food Storage: https://www.youtube.com/watch?v=gTitbP5_FtY&t=291s
+f. Nine Main Food Allegens: https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies#:~:text=of%20imported%20products.-,Major%20Food%20Allergens,from%20the%20marketplace%20or%20relabeled
+g. Allergen Basics: https://www.youtube.com/watch?v=R1IorYhfbiE&t=6s
+h. Allergen Management: https://www.youtube.com/watch?v=y2uIyEYemCg&t=3031s
+
+7.4. Stock Rotation Documentation
+a. CFR: Food must be held to prevent deterioration, implying FIFO rotation (§ 117.93(a)).
+b. Requirement: Date all incoming and pull oldest for shipping.
+c. Significance: Old stock spoils, wasting money and risking bad RTE sales.
+d. Fix: Label with dates and train pickers on FIFO.
+e. FIFO Method of Food Storage: https://www.youtube.com/watch?v=Kl6khNmOHd0&t=8s
+
+7.5. Finished Product Labeling for Allergens
+a. CFR: Food must be labeled to prevent allergen cross-contact (§ 117.80(b)(8)).
+b. Requirement: Print bold allergen warnings on every RTE package.
+c. Significance: Poor labels cause accidental exposure in consumers.
+d. Fix: Review labels quarterly and use software for updates.
+e. Nine Main Food Allegens: https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies#:~:text=of%20imported%20products.-,Major%20Food%20Allergens,from%20the%20marketplace%20or%20relabeled
+f. Allergen Labeling: https://www.youtube.com/watch?v=P73r-QMMtdY&t=80s
+g. Allergen Labeling Causing Recalls: https://www.youtube.com/watch?v=eLNpX7ASQGU&t=73s
+
+7.6. Temperature Abuse Checks on Receipt
+a. CFR: Raw materials must be inspected to ensure they are suitable for processing (§ 117.80(b)(1)).
+b. Requirement: Probe chilled deliveries and reject if over 41°F.
+c. Significance: Warm receipts start bacterial growth before RTE processing.
+d. Fix: Handheld thermometers at dock and log rejections.
+e. Thermometer Use: https://www.youtube.com/watch?v=71bKF2lE37E&t=631s
+
+7.7. Distribution Temperature Monitoring
+a. CFR: Food must be transported under conditions that prevent microbial growth (§ 117.93(b)).
+b. Requirement: Use reefers set to 35°F for cold RTE transport.
+c. Significance: Heat spikes in transit spoil RTE before delivery.
+d. Fix: Data loggers in trucks with post-trip reviews.
+
+8. By-Products for Animal Food
+
+8.1. By-Product Storage to Prevent Contamination
+a. CFR: By-products for animal food must be stored to prevent contamination of human food (§ 117.95(a)).
+b. Requirement: Keep scraps in separate, sealed area away from human RTE.
+c. Significance: Mixed storage contaminates edible human by-products.
+d. Fix: Dedicated bins labeled "Animal Only" in isolated room.
+e. Holding and Distribution of By-Products (21CFR507.28): https://www.ecfr.gov/current/title-21/chapter-I/subchapter-E/part-507/subpart-B/section-507.28
+f. Holding and Distribution of By-Products (21CFR117.95): https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.95
+
+8.2. Handling of By-Products
+a. CFR: By-products must be handled to prevent contamination of human food (§ 117.95(b)).
+b. Requirement: Use dedicated tools for moving scraps to avoid cross-touch.
+c. Significance: Shared tools transfer human food germs to animal feed lines.
+d. Fix: Color-code scoops and clean separately.
+
+8.3. Transportation of By-Products
+a. CFR: By-products must be transported to prevent contamination of human food (§ 117.95(c)).
+b. Requirement: Use covered trailers only for animal feed scraps.
+c. Significance: Open transport spills attract pests near plant.
+d. Fix: Schedule off-hour pickups and inspect vehicles.
+e. Holding and Distribution of By-Products (21CFR507.28): https://www.ecfr.gov/current/title-21/chapter-I/subchapter-E/part-507/subpart-B/section-507.28
+f. Holding and Distribution of By-Products (21CFR117.95): https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.95
+
+8.4. Container Inspection for By-Products
+a. CFR: Containers for by-products must be inspected to ensure suitability (§ 117.95(d)).
+b. Requirement: Check bins for cleanliness before filling with scraps.
+c. Significance: Dirty containers add contaminants to feed, indirectly affecting plant.
+d. Fix: Pre-use wash and log inspections.
+
+8.5. Accurate Labeling of By-Products
+a. CFR: By-products must be accurately labeled to prevent misuse (§ 117.95(e)).
+b. Requirement: Tag all with "Not for Human Food - Animal Use Only".
+c. Significance: Mislabels risk accidental human use of unfit scraps.
+d. Fix: Use tamper-proof tags and train fillers.
+
+9. Defect Action Levels
+
+9.1. Minimizing Natural Defects
+a. CFR: Quality control operations must minimize natural or unavoidable defects to acceptable levels (§ 117.110(a)).
+b. Requirement: Set limits for things like insect parts in grains and test regularly.
+c. Significance: High defects make RTE unappetizing or unsafe if over limits.
+d. Fix: Buy from low-defect suppliers and screen incoming.
+e. Defect Action Levels (21CFR117.110): https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.110
+
+9.2. Procedures for Defective Foods
+a. CFR: Defective foods must be handled to prevent mixing with safe food (§ 117.110(b)).
+b. Requirement: Quarantine bad batches separately and dispose properly.
+c. Significance: Mixed defects lower overall RTE quality and trigger recalls.
+d. Fix: Clear SOP with flowcharts and train on segregation.
+e. Defect Action Levels (21CFR117.110): https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.110
+
