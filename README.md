@@ -16,7 +16,7 @@ UNL MS Project on Food Safety and FSMA GMP Requirements
 |     | (Management Link)               | [https://tinyurl.com/2ry3b9ez](https://tinyurl.com/2ry3b9ez)  | |
 | 3   | General GMP Checklist           | [https://tinyurl.com/mtrhr65b](https://tinyurl.com/mtrhr65b)  | |
 |     | (Management Link)               | [https://tinyurl.com/bddw4tm9](https://tinyurl.com/bddw4tm9)  | |
-| 4   | Detailed GMP Checklist          | [https://tinyurl.com/ms6xay47]( https://tinyurl.com/ms6xay47)  | |
+| 4   | Detailed GMP Checklist          | [https://tinyurl.com/ms6xay47]( https://tinyurl.com/ms6xay47)  |[https://youtu.be/4DgQc_A67GA](https://youtu.be/4DgQc_A67GA) |
 | 5   | Post Assessment Feedback Form   | [https://tinyurl.com/3xchuwfs](https://tinyurl.com/3xchuwfs)  | |
 |     | (Management Link)               | [https://tinyurl.com/3jpuhssf](https://tinyurl.com/3jpuhssf)  | |
 | 6   | List of FDA Facilities          | [FDA Dashboard](https://datadashboard.fda.gov/oii/index.htm)  | [https://youtu.be/Y1OQA1F01qs](https://youtu.be/Y1OQA1F01qs) |
